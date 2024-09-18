@@ -36,7 +36,11 @@ This paper redefines evidence reasoning as a graph-theoretic problem, offering a
 
 ### 3. **Explaining and Editing Language Models for Fact-Checking**
 **Description:**  
-This research focuses on the interpretability and correction of language models used in automated fact-checking systems. It offers a toolkit for understanding model decisions and provides methods to correct outputs when they deviate from factual information.
+This was my masters thesis, which looked into how we can more efficiently update implicit knowledge stored within pre-trained language models
+without doing computationally expensive and highly unstable fine-tuning through the use of a hyper-network. The research focused on the task of fact-checking, improving model performance at implicit claim verification, as well as producing
+new techniques to generate explanations.
+It offers a toolkit for understanding model decisions and provides methods to correct outputs when they deviate from factual information.
+
 
 **Highlights:**
 - 🛠️ **Toolset for Explaining Decisions** made by large language models in fact-checking scenarios.
